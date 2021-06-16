@@ -9,11 +9,7 @@ def multiply(x,y):
     return x*y
 # Division implementation
 def divide(x,y):
-<<<<<<< HEAD
-    return x/y
-=======
     if y==0:
 	return DIVISION_BY_0_ERROR
     else:
 	return x/y
->>>>>>> 6e00841 (Division function with error message implemented on Bug789)
